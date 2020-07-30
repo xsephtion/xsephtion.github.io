@@ -481,6 +481,7 @@ mark,
 
 .img-fluid {
   max-width: 100%;
+  min-height: 250px;
   display: flex;
 }
 
@@ -10137,7 +10138,7 @@ h3 {
   position: relative;
   display: block;
   max-width: 25rem;
-  height: 250;
+  min-height: 250;
   border-radius: 0.5rem;
   overflow: hidden;
 }
@@ -10244,6 +10245,13 @@ form .row:first-child .floating-label-form-group {
   flex: 0 0 auto;
 }
 .pHeight {
-  height: 250;
+  min-height: 250;
   background: white;
+}
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
 }
